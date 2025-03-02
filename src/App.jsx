@@ -4,6 +4,7 @@ import Status from "./Components/Status";
 import Language from "./Components/Language";
 import Word from "./Components/Word";
 import Keyboard from "./Components/Keyboard";
+import Footer from "./Components/Footer";
 import { languages } from "./languages";
 import { getNewWord } from "./words";
 import Confetti from "react-confetti";
@@ -29,7 +30,7 @@ const App = () => {
     setGussedLetter([]);
   }
 
-  console.log(currentWord);
+  // console.log(currentWord);
 
   return (
     <main>
@@ -63,6 +64,8 @@ const App = () => {
           New Game
         </button>
       )}
+
+      <Footer />
     </main>
   );
 };

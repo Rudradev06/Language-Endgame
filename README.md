@@ -1,4 +1,4 @@
-# Word Guessing Game 🎯
+# Language Endgame 🎯
 
 This is a fun and interactive word guessing game built using **React**. The game selects a random word, and the player has to guess it by selecting letters. Each incorrect guess progresses the game towards failure. If the player guesses all the letters correctly, they win! 🎉
 
